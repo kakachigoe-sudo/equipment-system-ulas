@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Жүйе компоненттері" id="diagram">
+    <mxGraphModel page="1" pageScale="1" pageWidth="1080" pageHeight="755" grid="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" value="Жүйе компоненттері" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;verticalAlign=middle;align=left;spacing=0;fontColor=#182B41;fontSize=26;fontFamily=DejaVu Sans;fontStyle=1;" vertex="1">
+          <mxGeometry x="32" y="12" width="1016" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" value="" style="rounded=0;arcSize=8;fillColor=#E7F0F7;strokeColor=#526C82;strokeWidth=1.25;" vertex="1">
+          <mxGeometry x="340" y="67" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" value="Браузер · HTML, CSS, JavaScript" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;verticalAlign=middle;align=center;spacing=0;fontColor=#182B41;fontSize=19;fontFamily=DejaVu Sans;fontStyle=1;" vertex="1">
+          <mxGeometry x="350" y="67" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" value="" style="edgeStyle=none;rounded=0;strokeColor=#526C82;strokeWidth=1.4;dashed=0;endArrow=block;" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="127" as="sourcePoint" />
+            <mxPoint x="540" y="166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6" parent="1" value="HTTPS" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;verticalAlign=middle;align=left;spacing=0;fontColor=#182B41;fontSize=15;fontFamily=DejaVu Sans;fontStyle=0;" vertex="1">
+          <mxGeometry x="553" y="130" width="175" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" value="" style="rounded=0;arcSize=8;fillColor=#F6F9FC;strokeColor=#526C82;strokeWidth=1.25;" vertex="1">
+          <mxGeometry x="45" y="166" width="990" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" value="Flask · бір орналастыру бірлігі" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;verticalAlign=middle;align=left;spacing=0;fontColor=#182B41;fontSize=21;fontFamily=DejaVu Sans;fontStyle=1;" vertex="1">
+          <mxGeometry x="67" y="176" width="940" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" value="" style="rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#526C82;strokeWidth=1.25;" vertex="1">
+          <mxGeometry x="236" y="220" width="608" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" value="Nginx → Gunicorn → Flask маршруттары және Jinja2 көріністері" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;verticalAlign=middle;align=center;spacing=0;fontColor=#182B41;fontSize=16;fontFamily=DejaVu Sans;fontStyle=1;" vertex="1">
+          <mxGeometry x="246" y="220" width="588" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" value="" style="edgeStyle=none;rounded=0;strokeColor=#526C82;strokeWidth=1.4;dashed=0;endArrow=block;" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="277" as="sourcePoint" />
+            <mxPoint x="540" y="306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" parent="1" value="" style="rounded=0;arcSize=8;fillColor=#E7F0F7;strokeColor=#526C82;strokeWidth=1.25;" vertex="1">
+          <mxGeometry x="236" y="306" width="608" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" value="Сеанс · CSRF · рөл және жазба деңгейіндегі рұқсаттар" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;verticalAlign=middle;align=center;spacing=0;fontColor=#182B41;fontSize=17;fontFamily=DejaVu Sans;fontStyle=1;" vertex="1">
+          <mxGeometry x="246" y="306" width="588" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" value="" style="edgeStyle=none;rounded=0;strokeColor=#526C82;strokeWidth=1.4;dashed=0;endArrow=none;" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="179" y="394" as="sourcePoint" />
+            <mxPoint x="899" y="394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" parent="1" value="" style="edgeStyle=none;rounded=0;strokeColor=#526C82;strokeWidth=1.4;dashed=0;endArrow=none;" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="364" as="sourcePoint" />
+            <mxPoint x="540" y="394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" parent="1" value="" style="edgeStyle=none;rounded=0;strokeColor=#526C82;strokeWidth=1.4;dashed=0;endArrow=block;" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="179" y="394" as="sourcePoint" />
+            <mxPoint x="179" y="421" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" parent="1" value="" style="rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#526C82;strokeWidth=1.25;" vertex="1">
+          <mxGeometry x="73" y="421" width="212" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="1" value="Жабдық" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;verticalAlign=middle;align=center;spacing=0;fontColor=#182B41;fontSize=17;fontFamily=DejaVu Sans;fontStyle=1;" vertex="1">
+          <mxGeometry x="73" y="429" width="212" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="19" parent="1" value="Тізілім және іздеу" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;verticalAlign=middle;align=center;spacing=0;fontColor=#182B41;fontSize=13;fontFamily=DejaVu Sans;fontStyle=0;" vertex="1">
+          <mxGeometry x="73" y="469" width="212" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" value="" style="edgeStyle=none;rounded=0;strokeColor=#526C82;strokeWidth=1.4;dashed=0;endArrow=none;" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="179" y="504" as="sourcePoint" />
+            <mxPoint x="179" y="546" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" parent="1" value="" style="edgeStyle=none;rounded=0;strokeColor=#526C82;strokeWidth=1.4;dashed=0;endArrow=block;" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="419" y="394" as="sourcePoint" />
+            <mxPoint x="419" y="421" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" parent="1" value="" style="rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#526C82;strokeWidth=1.25;" vertex="1">
+          <mxGeometry x="313" y="421" width="212" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="1" value="Өтінімдер" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;verticalAlign=middle;align=center;spacing=0;fontColor=#182B41;fontSize=17;fontFamily=DejaVu Sans;fontStyle=1;" vertex="1">
+          <mxGeometry x="313" y="429" width="212" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="1" value="Күй, тарих, хабарлама" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;verticalAlign=middle;align=center;spacing=0;fontColor=#182B41;fontSize=13;fontFamily=DejaVu Sans;fontStyle=0;" vertex="1">
+          <mxGeometry x="313" y="469" width="212" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="25" parent="1" value="" style="edgeStyle=none;rounded=0;strokeColor=#526C82;strokeWidth=1.4;dashed=0;endArrow=none;" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="419" y="504" as="sourcePoint" />
+            <mxPoint x="419" y="546" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="26" parent="1" value="" style="edgeStyle=none;rounded=0;strokeColor=#526C82;strokeWidth=1.4;dashed=0;endArrow=block;" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="659" y="394" as="sourcePoint" />
+            <mxPoint x="659" y="421" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="27" parent="1" value="" style="rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#526C82;strokeWidth=1.25;" vertex="1">
+          <mxGeometry x="553" y="421" width="212" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="28" parent="1" value="Пайдаланушылар" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;verticalAlign=middle;align=center;spacing=0;fontColor=#182B41;fontSize=17;fontFamily=DejaVu Sans;fontStyle=1;" vertex="1">
+          <mxGeometry x="553" y="429" width="212" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="1" value="Кіру, шығу, рөлдер" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;verticalAlign=middle;align=center;spacing=0;fontColor=#182B41;fontSize=13;fontFamily=DejaVu Sans;fontStyle=0;" vertex="1">
+          <mxGeometry x="553" y="469" width="212" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="1" value="" style="edgeStyle=none;rounded=0;strokeColor=#526C82;strokeWidth=1.4;dashed=0;endArrow=none;" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="659" y="504" as="sourcePoint" />
+            <mxPoint x="659" y="546" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" parent="1" value="" style="edgeStyle=none;rounded=0;strokeColor=#526C82;strokeWidth=1.4;dashed=0;endArrow=block;" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="899" y="394" as="sourcePoint" />
+            <mxPoint x="899" y="421" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" parent="1" value="" style="rounded=0;arcSize=8;fillColor=#FFFFFF;strokeColor=#526C82;strokeWidth=1.25;" vertex="1">
+          <mxGeometry x="793" y="421" width="212" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="1" value="Есептер" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;verticalAlign=middle;align=center;spacing=0;fontColor=#182B41;fontSize=17;fontFamily=DejaVu Sans;fontStyle=1;" vertex="1">
+          <mxGeometry x="793" y="429" width="212" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="34" parent="1" value="Медиана, сүзгі, оқиғалар" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;verticalAlign=middle;align=center;spacing=0;fontColor=#182B41;fontSize=13;fontFamily=DejaVu Sans;fontStyle=0;" vertex="1">
+          <mxGeometry x="793" y="469" width="212" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="1" value="" style="edgeStyle=none;rounded=0;strokeColor=#526C82;strokeWidth=1.4;dashed=0;endArrow=none;" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="899" y="504" as="sourcePoint" />
+            <mxPoint x="899" y="546" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36" parent="1" value="" style="edgeStyle=none;rounded=0;strokeColor=#526C82;strokeWidth=1.4;dashed=0;endArrow=none;" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="179" y="546" as="sourcePoint" />
+            <mxPoint x="899" y="546" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37" parent="1" value="" style="edgeStyle=none;rounded=0;strokeColor=#526C82;strokeWidth=1.4;dashed=0;endArrow=block;" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="546" as="sourcePoint" />
+            <mxPoint x="540" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38" parent="1" value="" style="rounded=0;arcSize=8;fillColor=#E7F0F7;strokeColor=#526C82;strokeWidth=1.25;" vertex="1">
+          <mxGeometry x="300" y="565" width="480" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="39" parent="1" value="SQLAlchemy · ортақ деректерге қатынау" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;verticalAlign=middle;align=center;spacing=0;fontColor=#182B41;fontSize=17;fontFamily=DejaVu Sans;fontStyle=1;" vertex="1">
+          <mxGeometry x="310" y="565" width="460" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="40" parent="1" value="" style="edgeStyle=none;rounded=0;strokeColor=#526C82;strokeWidth=1.4;dashed=0;endArrow=block;" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="610" as="sourcePoint" />
+            <mxPoint x="540" y="671" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="41" parent="1" value="" style="rounded=0;arcSize=8;fillColor=#E7F0F7;strokeColor=#526C82;strokeWidth=1.25;" vertex="1">
+          <mxGeometry x="340" y="671" width="400" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="42" parent="1" value="PostgreSQL · 7 кесте" style="text;html=0;whiteSpace=wrap;strokeColor=none;fillColor=none;verticalAlign=middle;align=center;spacing=0;fontColor=#182B41;fontSize=18;fontFamily=DejaVu Sans;fontStyle=1;" vertex="1">
+          <mxGeometry x="350" y="671" width="380" height="56" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
