@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram id="equipment-use-cases" name="Use Case">
+    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="800" pageHeight="950">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="system" value="Жабдықты есепке алу және жөндеу жүйесі" style="swimlane;horizontal=1;startSize=55;container=1;collapsible=0;fillColor=#F0F5FA;swimlaneFillColor=#FFFFFF;strokeColor=#526A84;fontColor=#20334B;fontSize=19;fontStyle=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="183" y="22" width="592" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="actor0" value="Қызметкер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#526A84;fillColor=#FFFFFF;fontColor=#20334B;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="84" y="127" width="44" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="ФТ-01" value="ФТ-01  Өтінім жіберу" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F0F5FA;strokeColor=#526A84;fontColor=#20334B;fontSize=15;" vertex="1" parent="system">
+          <mxGeometry x="112" y="63.5" width="424" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="edge00" source="actor0" target="ФТ-01" parent="1" edge="1" style="endArrow=none;html=1;strokeColor=#526A84;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ФТ-02" value="ФТ-02  Өтінім күйін көру" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F0F5FA;strokeColor=#526A84;fontColor=#20334B;fontSize=15;" vertex="1" parent="system">
+          <mxGeometry x="112" y="114.5" width="424" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="edge01" source="actor0" target="ФТ-02" parent="1" edge="1" style="endArrow=none;html=1;strokeColor=#526A84;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ФТ-03" value="ФТ-03  Күй өзгерісі туралы хабарлама алу" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F0F5FA;strokeColor=#526A84;fontColor=#20334B;fontSize=15;" vertex="1" parent="system">
+          <mxGeometry x="112" y="165.5" width="424" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="edge02" source="actor0" target="ФТ-03" parent="1" edge="1" style="endArrow=none;html=1;strokeColor=#526A84;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor1" value="Қойма жауаптысы" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#526A84;fillColor=#FFFFFF;fontColor=#20334B;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="84" y="293" width="44" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="ФТ-04" value="ФТ-04  Жабдықты тіркеу" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F0F5FA;strokeColor=#526A84;fontColor=#20334B;fontSize=15;" vertex="1" parent="system">
+          <mxGeometry x="112" y="229.5" width="424" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="edge10" source="actor1" target="ФТ-04" parent="1" edge="1" style="endArrow=none;html=1;strokeColor=#526A84;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ФТ-05" value="ФТ-05  Жабдық деректерін жаңарту" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F0F5FA;strokeColor=#526A84;fontColor=#20334B;fontSize=15;" vertex="1" parent="system">
+          <mxGeometry x="112" y="280.5" width="424" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="edge11" source="actor1" target="ФТ-05" parent="1" edge="1" style="endArrow=none;html=1;strokeColor=#526A84;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ФТ-06" value="ФТ-06  Жабдықты іздеу" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F0F5FA;strokeColor=#526A84;fontColor=#20334B;fontSize=15;" vertex="1" parent="system">
+          <mxGeometry x="112" y="331.5" width="424" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="edge12" source="actor1" target="ФТ-06" parent="1" edge="1" style="endArrow=none;html=1;strokeColor=#526A84;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor2" value="Үйлестіруші" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#526A84;fillColor=#FFFFFF;fontColor=#20334B;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="84" y="459" width="44" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="ФТ-07" value="ФТ-07  Жаңа өтінімдерді сұрыптау" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F0F5FA;strokeColor=#526A84;fontColor=#20334B;fontSize=15;" vertex="1" parent="system">
+          <mxGeometry x="112" y="395.5" width="424" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="edge20" source="actor2" target="ФТ-07" parent="1" edge="1" style="endArrow=none;html=1;strokeColor=#526A84;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ФТ-08" value="ФТ-08  Өтінімді техникке тағайындау" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F0F5FA;strokeColor=#526A84;fontColor=#20334B;fontSize=15;" vertex="1" parent="system">
+          <mxGeometry x="112" y="446.5" width="424" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="edge21" source="actor2" target="ФТ-08" parent="1" edge="1" style="endArrow=none;html=1;strokeColor=#526A84;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ФТ-09" value="ФТ-09  Кешіккен өтінімдерді көру" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F0F5FA;strokeColor=#526A84;fontColor=#20334B;fontSize=15;" vertex="1" parent="system">
+          <mxGeometry x="112" y="497.5" width="424" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="edge22" source="actor2" target="ФТ-09" parent="1" edge="1" style="endArrow=none;html=1;strokeColor=#526A84;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor3" value="Техник" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#526A84;fillColor=#FFFFFF;fontColor=#20334B;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="84" y="625" width="44" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="ФТ-10" value="ФТ-10  Тағайындалған өтінімдерді көру" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F0F5FA;strokeColor=#526A84;fontColor=#20334B;fontSize=15;" vertex="1" parent="system">
+          <mxGeometry x="112" y="561.5" width="424" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="edge30" source="actor3" target="ФТ-10" parent="1" edge="1" style="endArrow=none;html=1;strokeColor=#526A84;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ФТ-11" value="ФТ-11  Жөндеу күйін жаңарту" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F0F5FA;strokeColor=#526A84;fontColor=#20334B;fontSize=15;" vertex="1" parent="system">
+          <mxGeometry x="112" y="612.5" width="424" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="edge31" source="actor3" target="ФТ-11" parent="1" edge="1" style="endArrow=none;html=1;strokeColor=#526A84;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ФТ-12" value="ФТ-12  Жөндеу нәтижесін тіркеу және жабу" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F0F5FA;strokeColor=#526A84;fontColor=#20334B;fontSize=15;" vertex="1" parent="system">
+          <mxGeometry x="112" y="663.5" width="424" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="edge32" source="actor3" target="ФТ-12" parent="1" edge="1" style="endArrow=none;html=1;strokeColor=#526A84;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor4" value="Бөлім басшысы" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#526A84;fillColor=#FFFFFF;fontColor=#20334B;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="84" y="791" width="44" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="ФТ-13" value="ФТ-13  Жөндеу ұзақтығын есептен көру" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F0F5FA;strokeColor=#526A84;fontColor=#20334B;fontSize=15;" vertex="1" parent="system">
+          <mxGeometry x="112" y="727.5" width="424" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="edge40" source="actor4" target="ФТ-13" parent="1" edge="1" style="endArrow=none;html=1;strokeColor=#526A84;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ФТ-14" value="ФТ-14  Есепті бөлім мен мерзім бойынша сүзу" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F0F5FA;strokeColor=#526A84;fontColor=#20334B;fontSize=15;" vertex="1" parent="system">
+          <mxGeometry x="112" y="778.5" width="424" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="edge41" source="actor4" target="ФТ-14" parent="1" edge="1" style="endArrow=none;html=1;strokeColor=#526A84;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ФТ-15" value="ФТ-15  Өтінімнің өзгеріс тарихын қарау" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F0F5FA;strokeColor=#526A84;fontColor=#20334B;fontSize=15;" vertex="1" parent="system">
+          <mxGeometry x="112" y="829.5" width="424" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="edge42" source="actor4" target="ФТ-15" parent="1" edge="1" style="endArrow=none;html=1;strokeColor=#526A84;exitX=1;exitY=0.5;exitPerimeter=0;entryX=0;entryY=0.5;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
